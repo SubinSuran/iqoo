@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 46px;
+    padding: 20px;
+    background-color: white;
+    z-index: 1;
+    
+}
+.logo-div{
+    
+    top: 0;
+    left: 0;
+    padding-left: 50px;
+}
+
+
+
+
+.items{
+    display: flex;
+    gap: 45px;
+    padding-top: 10px;
+    list-style: none;
+    padding-right: 200px;
+    font-size: 15px
+}
+
+.search-icon{
+   
+   padding-right: 80px;
+}
+
+
+#li{
+    color: rgb(36, 41, 51);
+}
+
+.first-img{
+    display: flex;
+    justify-content: space-around;
+    
+}
+footer{
+    display: block;
+    height: 417px;
+    background-color: #242933;
+    padding: 70px;
+    margin-top: 50px;
+}
+
+.footer-container{
+    display: flex;
+    width: 400px;
+    
+    background-color: #242933;
+    
+    
+}
+.footer-column{
+   row-gap: 10px;
+    top: 0;
+}
+
+.footer-column li {
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 1px;
+    gap: 20px;
+    
+}
+
+.footer-column ul li {
+    margin-bottom: 20px; /* Adjust the value to your preferred gap size */
+}
+
+.footer-column ul li:last-child {
+    margin-bottom: 0; /* This removes the gap after the last item */
+}
+
+a{
+    text-decoration: none;
+    color: #8c919b;
+    text-align: left;
+
+}
+
+#footer-head{
+    color: #ffffff;
+}
+
+.outro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+}
+
+.copyright{
+    margin-left: 50px;
+}
+
+#out{
+    color: #8c919b;
+}
