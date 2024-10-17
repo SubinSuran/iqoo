@@ -68,6 +68,7 @@ footer{
     
 }
 .footer-column{
+    flex: 1;
    row-gap: 10px;
     top: 0;
 }
